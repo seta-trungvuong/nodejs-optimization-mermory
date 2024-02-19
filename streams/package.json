@@ -1,0 +1,13 @@
+{
+  "name": "optimization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stream-processing": "node generateLargeFile.js && node processLargeDataUsingStream.js",
+    "synchronous-processing": "node generateLargeFile.js && node processLargeDataWithoutStream.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seta-trungvuong",
+  "license": "ISC"
+}
